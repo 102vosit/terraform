@@ -13,6 +13,7 @@ pipeline {
   stages {
     stage('Terraform Init') {
       steps {
+        powershell.exe
         terraform init
       }
     }
