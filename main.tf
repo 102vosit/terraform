@@ -1,9 +1,6 @@
 ## AWS provider
 provider "aws" {
   region = "us-east-1"
-
-  access_key = "AKIA6QUFFR7ZWDKIGMXF"
-  secret_key = "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"
 }
 
 resource "aws_vpc" "main" {
