@@ -1,5 +1,5 @@
 pipeline {
-  agent any{
+  agent any
   parameters {
     password (name: 'AWS_ACCESS_KEY_ID')
     password (name: 'AWS_SECRET_ACCESS_KEY')
@@ -38,5 +38,4 @@ bundle exec rake spec || true
       }
     }
   }
-}
 }
